@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ac9207b7-9fb1-5b89-1970-badde33f8eb5" revision="3" gameSystemId="47423c1e-c024-1db7-9b5b-1ce40903e208" gameSystemRevision="13" battleScribeVersion="1.15" name="Republique of France" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" name="Infantry Officer" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="1696a356-0773-06f4-060e-4df90ef5a9a8" name="Legionnaire Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="3974622d-54e9-43cc-5ee2-a97b476b2125" name="Legionnaire" points="25.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="99204e5f-bb64-eb9d-82d7-e97d390bb854" name="Aiguille Type 7 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7d472f7b-8d9b-1539-07b1-bcf54fb2b09e" targetId="b5fcd797-bb35-898f-04e2-0409519cf6f8" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" childId="c8e5b6b3-689c-4949-e0ae-4b43a0a22c1f" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" childId="7cf8f900-6860-e09a-86a3-677ec553fd2a" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" incrementChildId="61a0cc91-3d27-374e-079d-86204a34a5f0" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" incrementChildId="de8243dc-da24-ed4a-c3f9-7af71b1e37f0" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f3b3f401-e50f-9bb1-746e-5339c5130157" targetId="0888d283-6f6a-8235-accd-efde211ac05b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e7e09d16-193b-f252-efed-afca1111fe0c" name="Musician" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a71fad9e-5ffe-3108-5ed5-54bbbeca8bc4" targetId="0246529b-9b5a-1dde-7365-68ca2e410df4" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="4aaa1c39-208e-04e6-9af4-4d1134e078a9" name="Infantry Officer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="b26a97ab-f262-b903-cee2-50badecb6725" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="52b21c54-e3d5-9329-e674-9c629d42d614" name=".44 Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9c118817-d2fe-30c4-3901-f6130a99d13e" targetId="0508542a-ab44-7771-e266-551f6677e0aa" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="b07aed36-e523-0f57-006b-42a055a96841" name="Boiset Rifle Grenade Launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="d7d72ada-7765-9ef3-aba4-fa43e33156ee" targetId="abb829e8-fe73-5607-992d-0a9696275fc7" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="41facced-6b41-e2a5-1cd9-7704de904406" name="Command Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="796c5afa-7d75-db45-8794-b006645aca17" name="1 2nd Lieutenant" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="f2b03d03-dabf-0bda-9fd6-778ef70dc048" name="1 2nd Lieutenant" hidden="false">
+                      <description>CP - 4
+Command Range 4&quot;
+Experience Level Regular</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="06a55934-6f02-ef48-3566-bf04cd18fda7" name="2 1st Lieutenant" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="8bb2bf85-e4cd-6171-5bfd-6ac1c88ca131" name="2 1st Lieutenant" hidden="false">
+                      <description>CP - 5
+Command Range 6&quot;
+Experience Level Regular</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="c8e5b6b3-689c-4949-e0ae-4b43a0a22c1f" name="3 Captain" points="150.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="a2112a2b-3519-b3e7-1843-9761f4362d38" name="3 Captain" hidden="false">
+                      <description>CP - 6
+Command Range 6&quot;
+Experience Level Veteran</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="7cf8f900-6860-e09a-86a3-677ec553fd2a" name="4 Major" points="175.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="5f66a5df-a23f-bdf4-df30-b1b4ddaa0bd2" name="4 Major" hidden="false">
+                      <description>CP - 8
+Command Range 8&quot;
+Experience Level Veteran</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" incrementChildId="61a0cc91-3d27-374e-079d-86204a34a5f0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="809bccdb-7ae7-e0ce-4e33-a57065cc12dc" incrementChildId="de8243dc-da24-ed4a-c3f9-7af71b1e37f0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="c656e7fa-eb7a-57e5-de2d-470e9c1d3e97" name="Fire and Maneouver!" hidden="false">
+              <description>CP Cost = 2
+Successes = 2
+Issued in - Section&apos;s Command Segment
+
+The Section gains the Run and Gun MAR for this activation.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="a638e0a1-8191-a01d-c702-07f427d3c05e" targetId="8da3a5e4-ae1f-be0b-50e9-90465e56b750" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="62bdc168-13df-ed65-86a7-c18c7f55b617" name="Mercantour Truck" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dfc7ac4c-38d7-3fcb-7393-eb507643921c" targetId="ef22fc4a-59d1-340a-0af0-e86fde59e21b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d58be9a9-95b5-2443-3276-a96586382118" name="Field Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="61a0cc91-3d27-374e-079d-86204a34a5f0" name="Flashbangs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="de8243dc-da24-ed4a-c3f9-7af71b1e37f0" name="Tank Mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b20e5dcf-db98-c1b8-a610-77a1aa93f259" targetId="d73cefd7-682f-abf2-a2f7-4f2059e8d634" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" name="Legionnaire HMG Section" points="0.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="b6befa69-2dc6-e5b1-6a1b-ea666c0862d6" name="Legionnaire" points="25.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="7448e5bc-f8dc-d665-8325-1601db0a5ddc" name="Aiguille Type 7 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a164a8af-fd6b-7319-c6dc-658e44151308" targetId="b5fcd797-bb35-898f-04e2-0409519cf6f8" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="e5ca5396-1577-2788-db27-b8f43117c7f4" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="972b1cb6-3628-1f9d-afb7-928bb3008302" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="972b1cb6-3628-1f9d-afb7-928bb3008302" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="0fb11e81-13de-6560-5a53-8994cabf54f3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="e5ca5396-1577-2788-db27-b8f43117c7f4" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a701dd4f-c7c4-99e8-8a4c-431c86290936" targetId="0888d283-6f6a-8235-accd-efde211ac05b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e5ca5396-1577-2788-db27-b8f43117c7f4" name="Legionnaire Sergeant" points="30.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="37d51146-ab30-7908-d26a-8a83a90199bc" name="Roure SMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="37a41e16-42de-fb96-4a94-1235bc74decb" targetId="998fedef-0e97-073f-3257-b60a2ba52689" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b51efbe6-a3a4-dd88-cafb-4f5f31d8feec" name="Staff Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="dab64782-7779-3f7c-b78b-1b963a9a29ee" targetId="5009c956-51d4-80e9-c5db-e0e28e5a3f69" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="0fb11e81-13de-6560-5a53-8994cabf54f3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="467361bf-aad9-1518-c112-1d025e1dd599" name="NCO" hidden="false" page="0">
+              <description>A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="6ffdad99-e969-eac2-4287-edc021a4c0b0" targetId="fee713d6-8e2d-a9f3-158f-2936957f6078" linkType="profile">
+              <modifiers>
+                <modifier type="hide" field="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="cf896b9a-a457-c15f-971f-dd9d7d88adb5" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+        <entry id="972b1cb6-3628-1f9d-afb7-928bb3008302" name="Gun Team" points="60.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="30574d05-a88b-80f4-8300-add94d6a12cc" name="Chapuis HMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9f56f96a-ad20-3a0b-1ca8-c57aa516a86d" targetId="da398ebb-e8d6-5d59-53c8-36df12e7fd7a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="20.0" repeat="true" numRepeats="1" incrementParentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" incrementChildId="0fb11e81-13de-6560-5a53-8994cabf54f3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" childId="972b1cb6-3628-1f9d-afb7-928bb3008302" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="6.666667" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="820a26ae-2eb8-8faa-39b0-9ec0f9dfd653" childId="972b1cb6-3628-1f9d-afb7-928bb3008302" field="selections" type="equal to" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ac6141d2-fc81-bc0c-53b7-fd9850aa0ef1" targetId="947a1a0c-51d8-0746-83b6-01ddecb606ea" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="67430a9c-44de-13e2-b99e-e4d52d5ef036" name="Mercantour Truck" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3e5d4c32-adf5-7b96-c19b-605c24b3e13b" targetId="ef22fc4a-59d1-340a-0af0-e86fde59e21b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0a6e34ba-8c25-ca7e-17b5-f277db0b878f" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="73f8adc2-9128-f0ce-1891-a06306bfc800" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0fb11e81-13de-6560-5a53-8994cabf54f3" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="7c10314a-c2d1-e166-3a1d-4a25c02385ba" name="Legionnaire Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="467f0efc-f520-aac4-dc2d-4b41d489d5d0" name="Legionnaire" points="25.0" categoryId="(No Category)" type="unit" minSelections="6" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="166a09b7-ef4f-3eb2-2df9-5b26d6ca7c90" name="Aiguille Type 7 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="39982337-4f7d-9f38-fbd5-bf1bddfefade" targetId="b5fcd797-bb35-898f-04e2-0409519cf6f8" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="30bf80c1-1899-52e5-bd36-099d6ec0a7ae" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="0d5442cd-f7bf-4fef-99bf-da0088276228" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="0d5442cd-f7bf-4fef-99bf-da0088276228" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="00c4f4e6-27d3-c399-164e-9b2fa92f51e6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1ab198c-624f-1a5d-b5e2-1b48b0119bf8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1ab198c-624f-1a5d-b5e2-1b48b0119bf8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1b6c17f-49ce-e6f8-6387-81aae3251fed" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="30bf80c1-1899-52e5-bd36-099d6ec0a7ae" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="00c4f4e6-27d3-c399-164e-9b2fa92f51e6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9fe67d1e-3915-fddf-0ef3-9a39f1448d7f" targetId="0888d283-6f6a-8235-accd-efde211ac05b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="30bf80c1-1899-52e5-bd36-099d6ec0a7ae" name="Legionnaire Rifle Grenade" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="867906e0-2aca-7895-1250-0656b25283d0" name="Boiset Rifle Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8986c1ab-8249-21dc-5ea3-077602c4255a" targetId="abb829e8-fe73-5607-992d-0a9696275fc7" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1b6c17f-49ce-e6f8-6387-81aae3251fed" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f9746358-1b2b-06e4-32c2-f3206ac29c5f" targetId="0888d283-6f6a-8235-accd-efde211ac05b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0d5442cd-f7bf-4fef-99bf-da0088276228" name="Legionnaire Sergeant" points="30.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="bf04980a-2fff-f004-e020-701459004b2f" name="Roure SMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="ec878740-b425-e329-a6e6-e8a2ea2e067b" targetId="998fedef-0e97-073f-3257-b60a2ba52689" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="cf896b9a-a457-c15f-971f-dd9d7d88adb5" name="Staff Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="15a93ee0-bf9e-89f3-f64e-d3b08c69c265" targetId="5009c956-51d4-80e9-c5db-e0e28e5a3f69" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1b6c17f-49ce-e6f8-6387-81aae3251fed" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="f6e9d107-632b-6535-ba3a-68e342350148" name="NCO" hidden="false" page="0">
+              <description>A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="cc450127-e303-c443-bc87-68eb192035c0" targetId="fee713d6-8e2d-a9f3-158f-2936957f6078" linkType="profile">
+              <modifiers>
+                <modifier type="hide" field="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="cf896b9a-a457-c15f-971f-dd9d7d88adb5" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+        <entry id="57bbcf0e-e54b-ae16-3f54-27da3a708e3d" name="Musician" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5c10e0b3-8300-9243-8064-b1687a6f56d7" targetId="0246529b-9b5a-1dde-7365-68ca2e410df4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d1ab198c-624f-1a5d-b5e2-1b48b0119bf8" name="Gun Team" points="70.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="09c3aefd-d5e6-1bcc-21b8-c81ceaf24ec5" name="Chapuis HMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5a4c757d-63ba-fcce-0ed8-8c07a9382244" targetId="da398ebb-e8d6-5d59-53c8-36df12e7fd7a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="959233ca-e760-9063-3370-cd20b492d979" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="20.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1b6c17f-49ce-e6f8-6387-81aae3251fed" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="959233ca-e760-9063-3370-cd20b492d979" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="d1ab198c-624f-1a5d-b5e2-1b48b0119bf8" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="17b13810-fcc1-3edf-1448-733329600540" targetId="947a1a0c-51d8-0746-83b6-01ddecb606ea" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="00c4f4e6-27d3-c399-164e-9b2fa92f51e6" name="Legionnaire LMG" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="d3103adc-7c32-58bf-e9d7-dacf4bc371fd" name="Fouilouse LMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="baf83308-5fe3-692c-8f65-3c82b520c862" targetId="c13dfed9-f255-b75a-7e65-549c8b25d1aa" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="d1b6c17f-49ce-e6f8-6387-81aae3251fed" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" incrementChildId="832776d0-c4e8-c993-e2ce-59ec155fb1d6" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" childId="afd829e4-cf54-5cab-0f9e-9f31db3b670c" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="836d1437-90db-ce13-f309-55c3a419a220" targetId="0888d283-6f6a-8235-accd-efde211ac05b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="591862e1-51a7-6009-b4ac-be35f2908dbd" name="Mercantour Truck" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="00846b85-e152-9440-52fd-a830a03d8a9b" targetId="ef22fc4a-59d1-340a-0af0-e86fde59e21b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="9b4a8e0c-4cf5-3ce2-5750-3896e345cf19" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="564344c2-e1a7-4eef-831e-58b90b9c4491" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d1b6c17f-49ce-e6f8-6387-81aae3251fed" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ef92794c-63e6-ae05-f05a-39375e572f83" name="Section Type" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a82c5fa2-f6c4-8815-5cdb-5c68ef96cd2a" name="Battle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="afd829e4-cf54-5cab-0f9e-9f31db3b670c" name="Assault" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="959233ca-e760-9063-3370-cd20b492d979" name="HMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="da9d84d9-154f-af85-6136-4b1483e019b7" name="Field Equipment" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="832776d0-c4e8-c993-e2ce-59ec155fb1d6" name="Flashbangs and Tank Mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="bcdaf301-31d5-6484-daed-4d959a1eef7a" name="Marine Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="29261959-7c11-0383-4faa-0440bf5cd00f" name="Marine" points="45.0" categoryId="(No Category)" type="unit" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="1f520811-139c-efab-296f-101879acac9a" name="Heat Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a5af32aa-cab7-01fd-4f4f-c7055a3b3a3c" targetId="357029ce-537f-7122-1ef7-d172acce21d0" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="bcdaf301-31d5-6484-daed-4d959a1eef7a" incrementChildId="0e5738a3-8f19-7af7-1d75-ef18fd359429" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="bcdaf301-31d5-6484-daed-4d959a1eef7a" incrementChildId="0e5738a3-8f19-7af7-1d75-ef18fd359429" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="bcdaf301-31d5-6484-daed-4d959a1eef7a" incrementChildId="b780611c-c8e3-b18e-c42f-8c8f861f735b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="bcdaf301-31d5-6484-daed-4d959a1eef7a" incrementChildId="b780611c-c8e3-b18e-c42f-8c8f861f735b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="50c38d52-d6a2-b91d-3e1e-50f27cc397ca" targetId="175d1ad5-afc5-49af-4bea-e7e7114d467b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0e5738a3-8f19-7af7-1d75-ef18fd359429" name="Marine Specialist" points="50.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="31ea08aa-bedc-7d81-8db9-9b310d4c386f" name="Type 4 Heat Ray" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a978032b-f526-2c81-c8ac-b7df0bb405e6" targetId="b63ea0f0-b789-8e2e-05ed-3ffe67cfcc34" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="991b05f2-ca10-4283-fc6b-4ea76d514bb2" targetId="13cff825-7c65-2d5d-c564-bc63273c26d9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b780611c-c8e3-b18e-c42f-8c8f861f735b" name="Marine Sergeant" points="65.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="210095a6-a6fe-0aea-f288-8c513652ea02" name="Heat Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7a3de93d-a551-663f-b281-2ce19f9ef4c0" targetId="357029ce-537f-7122-1ef7-d172acce21d0" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="336f88c6-2217-cb5d-dfb7-462c55af0861" name="NCO" hidden="false" page="0">
+              <description>A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="c072a88c-f802-23f0-d868-ed25c40daa0e" targetId="0b5cacc9-bdee-749a-decd-ca3a3798de88" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a552a4b1-dae3-3aaa-0c08-4df53722d71f" name="Mercantour Truck" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="71f95e1f-b1d1-4515-3f27-4dc954c3c300" targetId="ef22fc4a-59d1-340a-0af0-e86fde59e21b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1287706f-0130-f963-74d2-160dd5f8c9f2" name="Veronique Dubois" points="60.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b63251d0-fc0d-0313-9579-26b8f9196dde" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Veronique Dubois" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Lucky(D3+1), Medic(4+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="a9c15e02-0242-b2b8-047f-5821da03605a" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="56bc2ff8-43bb-d2bb-b498-715f0fadb739" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="fb8756d8-8102-0dbd-3e96-805ea29a5cc6" name="Section Type" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="61481d27-20a4-8420-0391-f836bf958029" name="Combat" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7c10314a-c2d1-e166-3a1d-4a25c02385ba" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="d73cefd7-682f-abf2-a2f7-4f2059e8d634" name="Platoon Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles>
+    <profile id="0508542a-ab44-7771-e266-551f6677e0aa" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name=".44 Pistol" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="8-16&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLACK"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon, Small Arm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b5fcd797-bb35-898f-04e2-0409519cf6f8" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Aiguille Type 7 Rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="1 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Small Arm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="abb829e8-fe73-5607-992d-0a9696275fc7" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Boiset Rifle Grenade" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="3 RED"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="3 RED"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1), Small Arm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="da398ebb-e8d6-5d59-53c8-36df12e7fd7a" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Chapuis HMG" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-24&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="25-40&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="5 BLUE"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 BLUE"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLACK"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Spray and Pray"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c13dfed9-f255-b75a-7e65-549c8b25d1aa" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Fouilouse LMG" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLUE"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLUE"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Small Arm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="357029ce-537f-7122-1ef7-d172acce21d0" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Heat Gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="3 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="3 RED"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 RED"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1), Suppression"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8da3a5e4-ae1f-be0b-50e9-90465e56b750" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Infantry Officer" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="7&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0888d283-6f6a-8235-accd-efde211ac05b" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Legionnaire" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="947a1a0c-51d8-0746-83b6-01ddecb606ea" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Legionnaire Gun Team" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Cumbersome, Move or Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0246529b-9b5a-1dde-7365-68ca2e410df4" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Legionnaire Musician" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Musician"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fee713d6-8e2d-a9f3-158f-2936957f6078" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Legionnaire Sergeant" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5009c956-51d4-80e9-c5db-e0e28e5a3f69" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Legionnaire Staff Sergeant" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="175d1ad5-afc5-49af-4bea-e7e7114d467b" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Marine" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Flashbangs, Tank Mines"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0b5cacc9-bdee-749a-decd-ca3a3798de88" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Marine Sergeant" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="5"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(2), Flashbangs, Tank Mines"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="13cff825-7c65-2d5d-c564-bc63273c26d9" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Marine Specialist" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Flashbangs, Tank Mines"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ef22fc4a-59d1-340a-0af0-e86fde59e21b" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Mercantour Truck" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Regular Ironclad"/>
+        <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+        <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="5"/>
+        <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+        <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="4"/>
+        <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="3"/>
+        <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Transport (11)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="998fedef-0e97-073f-3257-b60a2ba52689" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Roure SMG" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="1 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Small Arm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b63ea0f0-b789-8e2e-05ed-3ffe67cfcc34" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type 4 Heat Ray" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="3 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="3 RED"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1), Suppression"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="1.15" name="Dystopian Legions" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <repositoryUrls/>
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Dystopian_Legions.gst.zip" dataType="gamesystem" dataId="47423c1e-c024-1db7-9b5b-1ce40903e208" dataName="Dystopian Legions" dataBattleScribeVersion="1.15" dataRevision="14"/>
+    <dataIndexEntry filePath="DL_EotBS.cat.zip" dataType="catalogue" dataId="7b5995ac-d7c4-d0e9-3415-8fe6841095c9" dataName="Empire Of The Blazing Sun" dataBattleScribeVersion="1.15" dataRevision="14"/>
+    <dataIndexEntry filePath="DL_RoF.cat.zip" dataType="catalogue" dataId="ac9207b7-9fb1-5b89-1970-badde33f8eb5" dataName="Republique of France" dataBattleScribeVersion="1.15" dataRevision="3"/>
+    <dataIndexEntry filePath="DL_FSA.cat.zip" dataType="catalogue" dataId="3ce892a9-f78d-4a75-66bc-c52585d28f27" dataName="Federated States of America" dataBattleScribeVersion="1.15" dataRevision="27"/>
+    <dataIndexEntry filePath="DL_KoB.cat.zip" dataType="catalogue" dataId="c9ae140c-4020-0daa-b72c-439e4a090a3e" dataName="Kingdom of Britannia" dataBattleScribeVersion="1.15" dataRevision="17"/>
+    <dataIndexEntry filePath="DL_CoA.cat.zip" dataType="catalogue" dataId="2dab1734-004e-2bd9-a14a-eeb8b9b89657" dataName="Covenant of Antarctica" dataBattleScribeVersion="1.15" dataRevision="2"/>
+    <dataIndexEntry filePath="DL_PE.cat.zip" dataType="catalogue" dataId="de37919e-e09e-4c4f-1e08-04c1409f15e9" dataName="Prussian Empire" dataBattleScribeVersion="1.15" dataRevision="22"/>
+  </dataIndexEntries>
+</dataIndex>

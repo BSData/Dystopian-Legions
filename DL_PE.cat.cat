@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="de37919e-e09e-4c4f-1e08-04c1409f15e9" revision="22" gameSystemId="47423c1e-c024-1db7-9b5b-1ce40903e208" gameSystemRevision="5" battleScribeVersion="1.15" name="Prussian Empire" authorName="Todd Wittie" authorContact="todd.wittie@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="c1e29e17-7137-ff23-5918-e1abfc4a0853" name="300kV Pak 69" points="0.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="c905da75-4cce-a5d3-3be5-91aa221cb0da" name="Grenadier" points="25.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="078758ba-9da6-4034-57ea-fd09f28ff2ef" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ebb0607d-d161-8f06-18ea-ced42c6fa55e" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d2e01351-ea37-9ac8-bc61-042bd74cef3e" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Gun Crew" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="66e78129-0d66-1036-e282-45d38069cb24" name="Gun Crew Sergeant" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="230d2051-63d0-f792-cde6-9b48c727ba24" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Sergeant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(1)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3ff9847d-4214-ecc4-0d4a-50fcef033850" name="PAK-69 Field Gun" points="90.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e37c3a99-0914-4e8e-b3cc-06f42e2bdafb" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="300kV Pak 69" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="10 RED"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="10 BLUE"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="14 RED"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="14 BLUE"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Move or Fire, Suppression"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e1472aa6-c527-8971-0f8c-9b0f1d999f05" targetId="278d5577-a92f-56f4-69a0-10a6aef48909" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="df06d9b6-ad9f-7dee-ba27-bd16da9e0217" name="Emplacement" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="01f17fd4-5d10-c51d-733a-bbd90816d6f1" name="Grenadier Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="bf17f85d-644a-03ed-fcdc-1026fde7afe7" name="Grenadier" points="25.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="ad5f1597-5298-a067-1ddc-a376401614a1" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3ef76f73-895b-c1cb-4b2f-906b102b2ab9" targetId="0213274f-8377-8c2f-8110-3ec82efa1fed" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="9c0006cb-eef0-b02f-a797-f56c39abaebb" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="5db292f7-6665-738b-64cc-d04136228df1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="9c0006cb-eef0-b02f-a797-f56c39abaebb" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="5db292f7-6665-738b-64cc-d04136228df1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a4c96a49-ee7b-c032-c422-129975790879" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a4c96a49-ee7b-c032-c422-129975790879" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="decd65af-d012-088c-4ffd-10e0edb799f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a44869b2-0a81-2f30-e7bc-182e4dc64749" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" childId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="b0c05853-542f-6c00-2d8a-275a19469536" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="78985029-9b09-a268-ad64-1baebe14235e" targetId="171e5ff1-6eb2-7f85-271a-ffbf2560ef45" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9c0006cb-eef0-b02f-a797-f56c39abaebb" name="Grenadier Specialist" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="9c928caa-15a2-bac7-f296-4a141280e236" name="Vierling" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="83aa0d94-c6b5-0775-149e-f0e0eae22a46" targetId="a7353b34-2de1-c8e9-680d-2bfb604c89f6" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="1913ad45-10a4-c7a9-30f8-d564fde6e959" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="decd65af-d012-088c-4ffd-10e0edb799f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a44869b2-0a81-2f30-e7bc-182e4dc64749" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" childId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="b0c05853-542f-6c00-2d8a-275a19469536" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8083b17e-e220-ac1c-b1ce-2d5c2d935701" targetId="6aa3a24a-c100-10d8-8a95-1804e7475b96" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5db292f7-6665-738b-64cc-d04136228df1" name="Grenadier Sergeant" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="ec59d661-c7a9-a64d-7ef3-9c61338d436c" name="Colour Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5c9e372b-d04c-4320-d5fd-2586e6657bd8" targetId="44690339-80f7-cc14-f254-5ece8de9d7ff" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2611922f-12cc-1853-c0ab-5cc612a82571" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a8d790e9-c2cc-5c15-bb64-727926f932e5" targetId="0213274f-8377-8c2f-8110-3ec82efa1fed" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="decd65af-d012-088c-4ffd-10e0edb799f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a44869b2-0a81-2f30-e7bc-182e4dc64749" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" childId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="b0c05853-542f-6c00-2d8a-275a19469536" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d6f69691-16c9-05ec-9c34-949cb7558af4" targetId="aa1ddaf8-9432-29f6-018b-a8f34010c8b3" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2bf9e47c-12e6-2fd6-d23f-4eeea28e91eb" targetId="f3e3820a-315c-891b-a778-1ee060c0ec82" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9fb58d1a-c4ff-6ba8-0ce0-536109dcf134" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="f31e8880-ea8b-3878-0ea8-c3843f9c5940" name="Medic" hidden="false" page="0">
+              <description>A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="a44a2517-ac3c-1439-1d94-6efedeaefc49" targetId="9e6cadc8-7324-8bc0-11b1-29ba8ebe6187" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a4c96a49-ee7b-c032-c422-129975790879" name="Gun Team" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="b9453b2b-c234-10a9-8bff-7e4d381ca5fc" name="Rudiger Model ‘64" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a2e36428-d7f4-9543-10dd-311dde1dd631" targetId="04f18410-dc4c-9dfb-95f9-c56fe357fcc2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="1913ad45-10a4-c7a9-30f8-d564fde6e959" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="20.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="decd65af-d012-088c-4ffd-10e0edb799f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="6.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="b0c05853-542f-6c00-2d8a-275a19469536" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="a44869b2-0a81-2f30-e7bc-182e4dc64749" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" childId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8e7914de-f05e-a894-5740-141288c682d9" targetId="72cc6ccb-754d-ad9a-b076-66d5350bbbdc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="76803482-c0da-37d7-a22d-958677635c79" name="Sturmwagen APC" points="60.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="53f1c606-ad79-f2d4-bec6-020d1f93925e" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries>
+                <entry id="76c35ad0-8af1-0a39-9760-7cc50382fcb1" name="Smoke Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="c1fe5849-bd4c-9796-dbb1-9c3ee5ec3530" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Smoke Launcher" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="-"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="-"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Smoke Launcher"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="5bc70f21-4f49-3691-4877-ef879f677a1d" name="Tesla Coil" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="6355c900-6c7e-8b36-1cef-f80065246030" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Coil" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLUE"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="13290dda-61fb-b145-535f-337a8fa53fd4" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Sturmwagen APC" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="7"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="7"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="5"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Charge Doors, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0f05f1e6-986b-c476-1d58-d86c73715de7" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8cbcba52-f214-8a5b-77b0-187591b894d9" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="decd65af-d012-088c-4ffd-10e0edb799f1" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="d667f215-2de2-bcee-4371-730280303e0d" name="Section Type" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b1fa0ff1-94ee-f6f8-e0d9-a410e339fe3f" name="Battle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" name="Assault" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1913ad45-10a4-c7a9-30f8-d564fde6e959" name="HMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="968497e1-d970-a5fb-9c9c-0bd6c14f3b5c" name="Field Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a44869b2-0a81-2f30-e7bc-182e4dc64749" name="Flashbangs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="fc52d05c-007f-35aa-8fc0-5cbf4d90fbaa" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b0c05853-542f-6c00-2d8a-275a19469536" name="Tank Mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="01f17fd4-5d10-c51d-733a-bbd90816d6f1" incrementChildId="1913ad45-10a4-c7a9-30f8-d564fde6e959" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c33981c2-c266-e1d0-5307-96a05c1f7568" name="Heavy Machine Gun Section" points="0.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="9401e519-dccb-4d5c-0a7c-88409d828afa" name="Gun Team" points="60.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="b8b205ae-b170-1d51-be57-c7b02d9af706" name="Rudiger Model ‘64" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9d7f0aa3-f03b-ba42-4f8d-7e6dde34d2ac" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Rudiger Model ‘64" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-24&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="25-32&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="2" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="27631614-8d69-151c-0590-56325e5b2b01" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c33981c2-c266-e1d0-5307-96a05c1f7568" childId="9401e519-dccb-4d5c-0a7c-88409d828afa" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c33981c2-c266-e1d0-5307-96a05c1f7568" childId="9401e519-dccb-4d5c-0a7c-88409d828afa" field="selections" type="equal to" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="ee72357c-db72-0420-cbcf-cc2185e39b70" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Gun Team" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Cumbersome, Move or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="a8845af0-e912-801c-3179-bd9b5d38819d" name="Grenadier" points="25.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="1eee6076-1290-5e00-dc78-e660c1d6cfec" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d7a7851a-bc33-e8bc-ab74-b140168a860f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="9e282d4e-eb59-e241-6753-d3f0c026f870" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="9e282d4e-eb59-e241-6753-d3f0c026f870" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="9401e519-dccb-4d5c-0a7c-88409d828afa" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="9401e519-dccb-4d5c-0a7c-88409d828afa" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="27631614-8d69-151c-0590-56325e5b2b01" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="9ec0a95c-9a68-76bb-689b-41a2a14f10f2" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9e282d4e-eb59-e241-6753-d3f0c026f870" name="Grenadier Sergeant" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="250ff0cc-4757-58b7-cc06-429294187974" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="10475459-3237-b6f4-6184-8a2f6ce8541f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="c33981c2-c266-e1d0-5307-96a05c1f7568" incrementChildId="27631614-8d69-151c-0590-56325e5b2b01" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="022d3fc9-41c2-ef1c-815a-d3acc41e9eba" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Sergeant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(1)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="498b1e6e-079f-bcb3-62a8-a6498d8c0210" targetId="aa1ddaf8-9432-29f6-018b-a8f34010c8b3" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5e495cd8-ddc0-c7cd-37d2-e809700c81d4" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ff200594-1fa2-885c-2fa1-4853e91e1de9" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="27631614-8d69-151c-0590-56325e5b2b01" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" name="Infantry Officer" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="31d7e088-bad5-f443-1faf-e4241525b3d0" name="Infantry Officer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="0ba3a219-4f47-c42f-b5fc-a288d8eb3162" name="Command Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="10bf47d2-455f-9110-5a34-15f9dd5d0121" name="3 Captain" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="f252b27d-574a-88b1-6854-817573f11209" name="3 Captain" hidden="false" page="0">
+                      <description>CP 5
+Range 6&quot;
+Experience Level Regular</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="84c2d7b0-68d8-cf1e-af2d-368f9ec78550" name="1 2nd Lieutenant" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="1a8ffea2-d330-9c3f-39a9-a212269d9222" name="1 2nd Lieutenant" hidden="false" page="0">
+                      <description>CP 3
+Range 4&quot;
+Experience Level Militia</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="76a857d6-ea44-6b99-795e-75e09c7e2b9f" name="2 1st Lieutenant" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="4fbb0db6-2342-3511-221d-6bd61c78cfe0" name="2 1st Lieutenant" hidden="false" page="0">
+                      <description>CP 4
+Range 6&quot;
+Experience Level Regular</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="e4884e38-5c06-2eaf-3686-21ad514afffa" name="4 Major" points="150.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="2135cd82-c38e-975c-c599-8dda391ae0fc" name="4 Major" hidden="false" page="0">
+                      <description>CP 6
+Range 8&quot;
+Experience Level Veteran</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="c58879f8-614f-d72f-7ea2-d4fc453d9817" name="5 Colonel" points="200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="39a99024-644e-affd-4cea-1a7e5e7a8f0a" name="5 Colonel" hidden="false" page="0">
+                      <description>CP 8
+Range 8&quot;
+Experience Level Veteran</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="36af9bc8-b3a6-35a5-041b-988ff5e0e316" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="a951c44f-7904-dc56-233b-0be41ed2848b" name="Reichsrevolver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="49ccd2a0-89f1-8b6e-ae8c-4dd380462bc1" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Reichsrevolver" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLACK"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="1 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="accc6f7a-9ef9-9b19-d25f-c0c1b92a9540" name="Tesla Pistol" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="545894f2-95c5-b592-2679-d0e178188dfe" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Pistol" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="4 RED"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="09aed00f-656f-e664-1301-14a5e107ee15" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Infantry Officer" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="3"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armor(1)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4754d49f-3807-b90b-f747-5b21609104dd" targetId="d2695dc6-056d-709a-42af-650ab207154d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="96a785f2-c6e6-9fd3-c941-82429bb29c92" name="Grenadier Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="c8c04e8e-35bb-c2d4-86bc-01a59d081ab2" name="Grenadier" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="e66b759d-b1c8-1e4e-8f60-615427501fbe" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="64e5dd2f-967f-1de9-e675-f1dccec671ea" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" incrementChildId="e4884e38-5c06-2eaf-3686-21ad514afffa" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" childId="e4884e38-5c06-2eaf-3686-21ad514afffa" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" childId="c58879f8-614f-d72f-7ea2-d4fc453d9817" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" incrementChildId="6f5a76cd-7e04-8e08-d07d-05b3f7d56aae" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" incrementChildId="7a1c1281-f2c3-2932-15e0-ddac7a44abdf" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" incrementChildId="84c2d7b0-68d8-cf1e-af2d-368f9ec78550" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="1d064d8b-3d99-e74e-314d-3d52a6ad712b" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1858d9b2-6444-a192-505c-9ea56e223fd1" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="75a9dfb1-e532-ae29-92c7-c4808b384e54" name="Medic" hidden="false" page="0">
+                  <description>A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="2198522f-7442-81be-ec55-0bc474e4cb90" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="62ebaf22-dd22-9ba5-8938-7aedfb2513e4" name="Sturmwagen APC" points="60.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="1043f236-f0b3-f0ca-4105-0c89c1c08bee" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries>
+                <entry id="64ec971b-b318-10e2-c410-8ddf1ec5fd35" name="Smoke Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="b1853dc7-dd5e-a71f-3ae2-f9dd6b429334" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Smoke Launcher" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="-"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="-"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Smoke Launcher"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="1b59c2b5-e4ab-b35c-9947-16a76bc95b1e" name="Tesla Coil" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="b55470d6-07be-8aa5-753d-e03d2174ee57" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Coil" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLUE"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="892d554e-b960-1e44-e0f9-5ab85e1b079b" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Sturmwagen APC" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="7"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="7"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="5"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Charge Doors, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="35d1cbd6-0727-4bc5-77ae-a5f03a6c2afc" name="Field Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6f5a76cd-7e04-8e08-d07d-05b3f7d56aae" name="Flashbangs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7a1c1281-f2c3-2932-15e0-ddac7a44abdf" name="Tank Mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="97b4ea94-8b17-b773-1b4b-a9cfec0e8d8e" incrementChildId="84c2d7b0-68d8-cf1e-af2d-368f9ec78550" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d05a71b4-f9ba-9a3d-5ddb-55b1a97dd28a" name="Kettenkarre Tankette Squadron" points="0.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="3ccca94a-bfd6-2458-1ab3-bd5f5a17b944" name="Kettenkarre Tankette" points="100.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="8e3f5b64-a69d-1212-ccc1-bf99a7d1ce2c" name="Mounted Maschinengewehr" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cce77ead-b4d4-a969-a4be-e69113ac5646" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mounted Maschinengewehr" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="7-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="20.0" repeat="true" numRepeats="1" incrementParentId="d05a71b4-f9ba-9a3d-5ddb-55b1a97dd28a" incrementChildId="1effa7f7-e1ae-1e81-4408-da6c499c05b0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="d45d43f8-b9a8-3b2c-fc26-4696dc2b0560" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kettenkarre Tankette" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="5"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="5"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Scout"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1effa7f7-e1ae-1e81-4408-da6c499c05b0" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f8822d1b-5b4e-43cf-f76c-da076133a194" name="Landwehr" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="9af1035e-ea62-c35d-bae2-82721062da37" name="Landwehr" points="10.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="7b213fd4-c267-a3d2-d249-ce702fc6c910" name="Mauser M48 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1fd286cb-8114-454f-3f15-251c1e38d100" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser M48 Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="296c6d70-53b5-d525-e39e-d054388ed86e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="63dc130e-f079-2e9f-4347-2eef3f637dab" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="296c6d70-53b5-d525-e39e-d054388ed86e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="63dc130e-f079-2e9f-4347-2eef3f637dab" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="008dfde8-88f6-ad94-9bea-e1f14a4be5e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="0f0ea955-9ece-bef7-84fd-19ee3b370143" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Landwehr Conscript" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="63dc130e-f079-2e9f-4347-2eef3f637dab" name="Landwehr Specialist" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="6fbe1974-2443-9f42-8b82-e7caa7a1ecb7" name="2cm Anti-Ironclad Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cddecea9-0d59-9a60-fb61-136f3e8d2476" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="2cm Anti-Ironclad Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="3 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="3 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="008dfde8-88f6-ad94-9bea-e1f14a4be5e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="a0e7e441-f689-f795-ac49-765fb8b2f142" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Landwehr Specialist" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="296c6d70-53b5-d525-e39e-d054388ed86e" name="Landwehr Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="8833cd31-45c8-5df3-5b16-c04fc331447d" name="Mauser M48 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="691ca4ff-6093-0a91-8ac0-eea6ef042176" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser M48 Rifle" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="d7344a73-5ebc-c4b6-d479-e4fc367b85fb" name="Colour Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0d3e6fd6-9188-f24d-3678-1cf7a6388702" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Landwehr Colour Sergeant" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="4"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(2)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f8822d1b-5b4e-43cf-f76c-da076133a194" incrementChildId="008dfde8-88f6-ad94-9bea-e1f14a4be5e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="cedc0aeb-6ee4-e70a-8101-1c2e4c604cac" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Landwehr Sergeant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(1)"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="hide" field="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" value="0.0" repeat="true" numRepeats="1" incrementParentId="296c6d70-53b5-d525-e39e-d054388ed86e" incrementChildId="d7344a73-5ebc-c4b6-d479-e4fc367b85fb" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links>
+            <link id="24abf32f-90d8-f01b-3e96-a0444e77920c" targetId="aa1ddaf8-9432-29f6-018b-a8f34010c8b3" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="067172b5-a1a4-f41a-8b1d-ef912630c95d" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="c376f659-ed0a-8ed1-dc17-38fb1b7039e9" name="Medic" hidden="false" page="0">
+              <description>A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="e3bfea31-2c02-54da-45de-b4e580142994" targetId="9e6cadc8-7324-8bc0-11b1-29ba8ebe6187" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d0f20f7e-7994-f987-a8e3-b74712855a51" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3260fa12-76e7-f6cc-a205-e09c9026813b" name="Militia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="008dfde8-88f6-ad94-9bea-e1f14a4be5e7" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9348b350-b640-2691-575f-6a85426fe5a0" name="Section Type" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3de9441b-8e33-2796-06dd-d2b105e3004b" name="Battle Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4c860a34-9fe0-b670-941f-fdddcba7acab" name="LuftLancer Section" points="0.0" categoryId="03401ec5-35d9-8c9b-039a-c47d317173fd" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="55620f0f-e0d0-c4ab-a80f-a832e3635b57" name="Luftlancer" points="50.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="90ea78dd-380a-14fe-9389-f2a54ad86848" name="Tesla Surge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="92091617-d08a-3535-f410-c107abe1cc66" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Surge" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLUE"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="4c860a34-9fe0-b670-941f-fdddcba7acab" incrementChildId="0ae10bbd-3e38-973e-31e6-857f3a2e4bfd" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="2d5e7d73-df12-09a9-97ce-75a0aae12d00" name="Swift Strike" hidden="false" page="0">
+              <description>A model with the Swift Strike MAR Strikes First in the first round of Melee.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="9469ca37-fdf3-79f1-564f-f6f5e2cac67a" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Luftlancer" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Aeronaut"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="9&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Battle Hardened, Elusive Target, Swift Strike"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d8c157a9-3f5d-4e4c-73f9-1d1c555c0811" name="Tesla Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="63db3ea7-ca4e-9e5c-8b3a-8366eab4de45" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Pistol" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 RED"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLUE"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLACK"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0ae10bbd-3e38-973e-31e6-857f3a2e4bfd" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8be1f42e-3648-aa9f-77a0-dc8daa15721c" name="Oberst Werner Hahl" points="200.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="3541a46c-8df0-f365-146c-78c4ca71773f" name="Oberst Werner Hahl" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="0b05c9d0-6d56-cfe9-8351-e531a406c8a7" name="Tesla Surge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="5cdd59b8-6559-3ca1-28c0-7eba2d134c1e" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Surge" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLUE"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="68f9a30b-b81e-c231-bbed-8fa0f1fc35ef" name="Oberst Werner Hahl" hidden="false" page="0">
+              <description>CP 8
+Range 6&quot;
+Experience Level Regular</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ae4c950e-137b-9477-341b-cd1f93317914" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Oberst Werner Hahl" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="4"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee 2), Combat Armor(2), Daunting, Eisernfaust"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1fafbcd4-24b6-b7ab-51ed-d31bb7b3bb82" targetId="d2695dc6-056d-709a-42af-650ab207154d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8bfd5909-12c7-9326-65bd-ccdec7fb9caf" name="Gluecklich" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6aedba92-739e-9f72-7754-d63bbd28ed3d" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Gluecklich" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="3"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armor(1), Daunting, Lucky(d3-1), Symbol of the Empire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1a403fab-cc5c-68b0-5a46-99888274cc96" name="Grenadier Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="027329d9-4a7f-5efe-907f-dbe52b878750" name="Grenadier" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="a3193a45-1729-5bd4-d1da-f6b3046b665c" name="Mauser-Tesla M69 Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="157bd248-9fb4-feeb-d0f9-27e90ad14bb0" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1a403fab-cc5c-68b0-5a46-99888274cc96" incrementChildId="63bb508a-a3ba-5a3a-86c3-5dcba8efe988" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1a403fab-cc5c-68b0-5a46-99888274cc96" incrementChildId="63bb508a-a3ba-5a3a-86c3-5dcba8efe988" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="8be1f42e-3648-aa9f-77a0-dc8daa15721c" incrementChildId="5bbdca44-8b73-a630-2d64-60fe6122f82d" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="ad2c05aa-c601-63f6-06b9-96296cb08e58" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="63bb508a-a3ba-5a3a-86c3-5dcba8efe988" name="Grenadier Specialist" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="a517c8aa-e066-8f2f-565c-9029455c49b8" name="Vierling" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="fb8f316f-ba59-36ee-e7b9-742bd0a8d7d9" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Vierling" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="4 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="4 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLACK"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="1 BLACK"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Spray and Pray"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="8be1f42e-3648-aa9f-77a0-dc8daa15721c" incrementChildId="5bbdca44-8b73-a630-2d64-60fe6122f82d" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="750ea797-4ac7-c9bf-0513-bfa62957231f" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Specialist" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="3bb3dcf6-2da2-edf0-c0f7-4a06eddf75fc" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="56a57a65-c711-8612-fa75-74bbb3d50a44" name="Medic" hidden="false" page="0">
+                  <description>A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="54b0d30a-fe67-fdbb-f1ab-7f62555e8f8d" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8152ba6f-0381-8426-5d26-9cc28d2e4835" name="Sturmwagen APC" points="60.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="d6aca756-c40d-b1b9-938b-46c4e2a1dbfa" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries>
+                <entry id="10649c8d-c6fc-ea12-3e8e-03b44c805202" name="Smoke Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="233a40db-2de5-9825-9343-9db2c522ae69" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Smoke Launcher" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="-"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="-"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Smoke Launcher"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="31c60a1b-e1a0-56ff-7364-e3f6ed4eb7da" name="Tesla Coil" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="a194a420-d096-5b99-32a6-360f8effdaeb" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Coil" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 RED"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLUE"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="9.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="36df06ca-1973-cf3d-6ae3-6353473da8cd" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Sturmwagen APC" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="7"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="7"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="5"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Charge Doors, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="93fd4b93-d714-1247-d1cb-1730531e6c74" name="Field Equipment" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5bbdca44-8b73-a630-2d64-60fe6122f82d" name="Tank Mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="03f77b0c-3d21-f978-ad5f-dcb59f0dc132" name="Professor Gustardt &amp; Siegfried" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="60bc89bb-125e-1f40-7984-b56f098f8b1d" name="Siegfried" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="58d87047-f507-7f73-e674-d9958e3dd3e8" name="Amplifying Stabilisation Actuator (ASA)" hidden="false" book="" page="0">
+              <description>The ASA allows Gustardt&apos;s Tesla Gauntlets to greatly increase the power of an attack. Such mad science is not without a certain degree of risk, but that rarely stops him from using it! The equipment may be activated using one of TWO settings.
+
+Focusted Setting - Adds +d3 to the IAD, rolled before each attack. All attacks using the Focused Setting are always considered to be Placed.
+
+Spread Setting - Adds +d6 to the RAD, rolled before each attack. All attacks using the Spread Setting are always considered to be Rushed.
+
+Once the Attack has been resolved, roll a d6; On a roll of a 1 Gustardt loses ONE Life Point from the crackling electrical energy that is coursing through his body!</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="18b0a4df-87ef-520a-a4ba-f7a73349eec4" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Siegfried" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="-"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="-"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="-"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Non Combatant"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6ffa9abb-9a8c-1091-fca2-d41026356c74" name="Professor Gustardt" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="ec5892f9-c7ff-9a90-5e17-851471c1b4bd" name="Tesla Gauntlets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="e35a6098-dd05-1e59-3575-90b8124b1be3" name="Experimental Weapon" hidden="false" page="0">
+                  <description>A weapon with the Experimental Weapon WAR rolls the listed number of Dice to determine how many Attack Dice it rolls. This is determined EACH time a model with the weapon makes an Attack.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="68684218-dfae-b78f-7f10-178957b55aae" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Gauntlets" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2d6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2d6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="d6+d3 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="d6+d3 BLUE"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="5eabf558-da86-8ee9-9bdc-2f5e528c50c9" name="Mad Genius" hidden="false" page="0">
+              <description>Every time Gustardt uses his Experimental Tesla Gauntlets, he may re-roll ONE of the d6 or d3 used. The second result must be accepted. If a die is re-rolled and subsequently rolls a natural 1, Gustardt immediately suffers the loss of ONE Life Point.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="61afcae2-4d15-072b-abab-5bec16c270b7" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Professor Gustardt" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="4"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2d3+1 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="29356106-f9d6-7357-3a34-cc4a25cf7f9b" name="Teutonic Knight Officer" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="c53a2a37-5378-c9ef-98dd-a0ead0a8fb3a" name="Teutonic Knight Specialist" points="105.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="bdcccfac-2421-a095-ea53-05e9a8933608" name="M4 Schocklanze" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9ab640ce-45c9-73b3-94a7-5e165ef69e8c" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="M4 Schocklanze" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="4 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="8 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="29356106-f9d6-7357-3a34-cc4a25cf7f9b" incrementChildId="01200e12-8042-a619-c46f-31e1b21e81d2" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="458bcdc7-b812-c086-8924-53872833fb0f" name="Daunting" hidden="false" page="0">
+              <description>When a Section is successfully charged by a Section with the Daunting MAR it must take a Morale Check Command Test, Requiring TWO successes, IMMEDIATLY after all charging models have completed their Movement.
+
+If the Morale Command Test is failed the Section gains a Shaken Marker.
+If the Morale Check Command Test is passed there is no effect.
+
+If the charged Section already has a Shaken Marker it only needs to take ON E Morale Check Command Test however it requires an ADDITION AL success to pass.</description>
+              <modifiers/>
+            </rule>
+            <rule id="0a9942da-7a84-a31b-f9d6-a1bc55878c46" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NO T Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="7cf6c3fe-9947-6ac5-c4c0-c7f02d3e1f93" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Teutonic Knight Armsman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="6"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="6 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee,+1), Daunting, Towering"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="01200e12-8042-a619-c46f-31e1b21e81d2" name="Teutonic Knight Armsman" points="85.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="1921375a-2ee2-6aad-fe74-1867f7c3e38e" name="Maschinengewehr ‘71" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e622187c-bbc2-e303-54ce-ddc39b2816bd" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Maschinengewehr ‘71" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="29356106-f9d6-7357-3a34-cc4a25cf7f9b" incrementChildId="c53a2a37-5378-c9ef-98dd-a0ead0a8fb3a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="b8f6cf01-48af-0a66-9d84-78a71cef75c4" name="Daunting" hidden="false" page="0">
+              <description>When a Section is successfully charged by a Section with the Daunting MAR it must take a Morale Check Command Test, Requiring TWO successes, IMMEDIATLY after all charging models have completed their Movement.
+
+If the Morale Command Test is failed the Section gains a Shaken Marker.
+If the Morale Check Command Test is passed there is no effect.
+
+If the charged Section already has a Shaken Marker it only needs to take ON E Morale Check Command Test however it requires an ADDITION AL success to pass.</description>
+              <modifiers/>
+            </rule>
+            <rule id="366de418-e6a8-35be-ea92-988381c52469" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NO T Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="2f5d4905-d41d-2656-7b90-263df92ef492" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Teutonic Knight Armsman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="6"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="6 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee,+1),  Daunting, Towering"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1da0ac3a-94a4-715a-4c7c-221170d41882" name="Teutonic Unter Marshal" points="150.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="57c5a52a-721f-9740-4ccf-6d84a2729f35" name="Maschinengewehr ‘71" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="796af5ae-03a2-1e24-c540-a6c439b5f73e" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Maschinengewehr ‘71" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="d910defe-18a0-cf0d-99f1-243c683ea921" name="Daunting" hidden="false" page="0">
+              <description>When a Section is successfully charged by a Section with the Daunting MAR it must take a Morale Check Command Test, Requiring TWO successes, IMMEDIATLY after all charging models have completed their Movement.
+
+If the Morale Command Test is failed the Section gains a Shaken Marker.
+If the Morale Check Command Test is passed there is no effect.
+
+If the charged Section already has a Shaken Marker it only needs to take ON E Morale Check Command Test however it requires an ADDITION AL success to pass.</description>
+              <modifiers/>
+            </rule>
+            <rule id="5da5e31c-baae-a28d-3167-04818e607322" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NO T Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+            <rule id="8c09e2d1-59fe-8c46-c521-a3e0d9e40722" name="Teutonic Unter Marshal" hidden="false">
+              <description>CP 6
+Range 8&quot;
+Experience Level Veteran</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="cfaeeb63-a18c-7eb1-4385-eaf9de2e8b89" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Teutonic Unter Marshal" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="6"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="4"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="6 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee,+2), Daunting, Towering"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="38c7d519-c795-4106-5318-fd13bbad2803" targetId="a44375dc-6ed1-da64-2892-34d3f2deb973" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f9137d42-95ba-468c-0e6f-50811e4248f6" targetId="d2695dc6-056d-709a-42af-650ab207154d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="b385badb-e624-f4cf-bc17-f628acefe195" name="Teutonic Knight Section" points="0.0" categoryId="03401ec5-35d9-8c9b-039a-c47d317173fd" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="02080bc2-22f2-ded3-77d2-038ba306b97b" name="Teutonic Knight Specialist" points="105.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="f9cb8a9f-c196-6ca4-9dce-6eec5c4178d7" name="M4 Schocklanze" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="831faff3-1846-e674-5c7f-832b21e55d1d" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="M4 Schocklanze" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="4 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="8 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="02080bc2-22f2-ded3-77d2-038ba306b97b" childId="02080bc2-22f2-ded3-77d2-038ba306b97b" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="b2877597-71c0-0ee1-0e10-38d9919e3f86" name="Daunting" hidden="false" page="0">
+              <description>When a Section is successfully charged by a Section with the Daunting MAR it must take a Morale Check Command Test, Requiring TWO successes, IMMEDIATLY after all charging models have completed their Movement.
+
+If the Morale Command Test is failed the Section gains a Shaken Marker.
+If the Morale Check Command Test is passed there is no effect.
+
+If the charged Section already has a Shaken Marker it only needs to take ON E Morale Check Command Test however it requires an ADDITION AL success to pass.</description>
+              <modifiers/>
+            </rule>
+            <rule id="de8ea709-2f10-5a22-3dc4-d61b4aebf45e" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NO T Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="3946844d-13d2-48bd-f1b7-ac8d17d2be08" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Teutonic Knight Armsman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="6"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="6 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee,+1), Battle Hardened, Daunting, Towering"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="76d2e661-9dc3-ce3b-cef2-0f8d3893c71a" name="Teutonic Knight Armsman" points="85.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="78811006-7dc4-b3d1-b30f-e18c1c61ae3e" name="Maschinengewehr ‘71" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="dac84163-15cb-bba0-8ee4-68315945cbbb" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Maschinengewehr ‘71" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b385badb-e624-f4cf-bc17-f628acefe195" incrementChildId="02080bc2-22f2-ded3-77d2-038ba306b97b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b385badb-e624-f4cf-bc17-f628acefe195" incrementChildId="02080bc2-22f2-ded3-77d2-038ba306b97b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="22e38e80-5ba3-f8bb-4ec9-0d0001b2c816" name="Daunting" hidden="false" page="0">
+              <description>When a Section is successfully charged by a Section with the Daunting MAR it must take a Morale Check Command Test, Requiring TWO successes, IMMEDIATLY after all charging models have completed their Movement.
+
+If the Morale Command Test is failed the Section gains a Shaken Marker.
+If the Morale Check Command Test is passed there is no effect.
+
+If the charged Section already has a Shaken Marker it only needs to take ON E Morale Check Command Test however it requires an ADDITION AL success to pass.</description>
+              <modifiers/>
+            </rule>
+            <rule id="4c3142c9-d455-68b5-f5f0-14729d0a5bcf" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NO T Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="b49f4c75-2e63-e511-bcc5-e359f658f409" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Teutonic Knight Armsman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="6"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="6 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Armor Piercing(Melee,+1), Battle Hardened, Daunting, Towering"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f05ea9dd-8dc4-6986-2fd6-89f2d651119e" name="Walze Ironclad" points="350.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="bcc0fdcd-26ad-a785-6f87-6d2151019196" name="Right Tesla Coil" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1b8d2e14-0c2e-6c1a-b4dd-424231fc6739" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Coil" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="8 RED"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="8 BLUE"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="5 RED"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="5 BLUE"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2b4d65e6-118c-f1c0-b817-d6be8a84d277" name="Left Tesla Coil" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ace87eb2-8be4-82c5-f60b-9ac707b84c0c" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tesla Coil" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="8 RED"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="8 BLUE"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="5 RED"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="5 BLUE"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="029e4422-ddb3-620d-eabd-4dd12f38c133" name="13&quot; Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cf1e9acd-5565-b1b3-b819-bea98727b229" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="13&quot; Cannon" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="8-24&quot;"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="25-32&quot;"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="12 BLUE"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="12 BLACK"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="10 RED"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="10 BLUE"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1), IDF Weapon"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="748aeec5-898c-83a6-d7cf-7e831d2ac2ad" name="Veteran" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8adfd036-6039-11ab-240f-cfd8eb65ba69" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Walze Ironclad" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+            <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="5&quot;"/>
+            <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="10"/>
+            <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="10"/>
+            <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="7"/>
+            <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+            <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="NCO(1)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="d2695dc6-056d-709a-42af-650ab207154d" name="Platoon Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="a44375dc-6ed1-da64-2892-34d3f2deb973" name="Duelling Armour" hidden="false" page="0">
+      <description>A model with the Duelling Armour MAR may reduce the number of successes rolled by its opponent during any Duel by ONE.</description>
+      <modifiers/>
+    </rule>
+    <rule id="aa1ddaf8-9432-29f6-018b-a8f34010c8b3" name="NCO" hidden="false" page="0">
+      <description>A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="9e6cadc8-7324-8bc0-11b1-29ba8ebe6187" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="-"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="171e5ff1-6eb2-7f85-271a-ffbf2560ef45" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="44690339-80f7-cc14-f254-5ece8de9d7ff" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Colour Sergeant" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="72cc6ccb-754d-ad9a-b076-66d5350bbbdc" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Gun Team" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Cumbersome, Move or Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f3e3820a-315c-891b-a778-1ee060c0ec82" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Sergeant" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6aa3a24a-c100-10d8-8a95-1804e7475b96" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Grenadier Specialist" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+        <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+        <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+        <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+        <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLUE"/>
+        <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0213274f-8377-8c2f-8110-3ec82efa1fed" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Mauser-Tesla M69 Rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLACK"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="278d5577-a92f-56f4-69a0-10a6aef48909" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="PAK-69 Field Gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Small Ironclad"/>
+        <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="3&quot;"/>
+        <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="5"/>
+        <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="5"/>
+        <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="2"/>
+        <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+        <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Move or Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="04f18410-dc4c-9dfb-95f9-c56fe357fcc2" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Rudiger Model ‘64" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-24&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="25-32&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="6 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="6 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="4 BLUE"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="4 BLACK"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a7353b34-2de1-c8e9-680d-2bfb604c89f6" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Vierling" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="4 BLUE"/>
+        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="4 BLACK"/>
+        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLACK"/>
+        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="1 BLACK"/>
+        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Spray and Pray"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

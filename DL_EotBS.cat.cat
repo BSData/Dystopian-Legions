@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7b5995ac-d7c4-d0e9-3415-8fe6841095c9" revision="14" gameSystemId="47423c1e-c024-1db7-9b5b-1ce40903e208" gameSystemRevision="2" battleScribeVersion="1.15" name="Empire Of The Blazing Sun" authorName="Todd Wittie" authorContact="todd.wittie@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="e7c3bd88-c8e3-bf15-2163-62c2eda23f15" name="Alchemist Tonegawa &amp; Takera Isamu" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="41313e95-9709-c708-c493-b7b61b8b41c8" name="Alchemist Tonegawa" points="150.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="30d6e670-aa4e-77cf-b3eb-7a70efb0db88" name="Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="bf795883-dd63-7577-4440-924e4cdd35f5" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tonegawa Launcher" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="5 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="5 RED"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Rapid Fire(2)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="56ef314e-39d5-df38-0f52-624ceec6af73" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Alchemist Tonegawa" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Unique"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e93a6ea2-6eda-32db-ebc9-723dbf1b5215" name="Takera Isamu" points="70.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="c745a769-3b97-e3f9-0cfc-6d9e7c51056a" name="Takera Isamu" hidden="false" page="0">
+              <description>Command Points 3
+Command Range 4&quot;
+Experience Level Regular</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="1698e737-dec3-0a20-5854-18bfc6a2da53" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Takera Isamu" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer (Tier 2)"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armor(1)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="bacb36ac-41a8-11b8-8ab2-6efbe781a757" targetId="24f86636-f7f6-ed32-392a-7b9a45441145" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" name="Ashigaru Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="997fbf56-59ab-fd54-40f5-81fa53c08691" name="Ashigaru" points="20.0" categoryId="(No Category)" type="unit" minSelections="5" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="a4f5c7bc-d6ff-8a91-2d00-55facfce6d82" name="Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="72e4026c-54cc-d183-3b8b-e35b48077b44" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="‘Dragon’s Breath’ Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="9-16&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="2 BLACK"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="1 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="dcc95035-0957-565c-ad3d-c05c97b02875" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="dcc95035-0957-565c-ad3d-c05c97b02875" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="644bd88a-2028-5ae6-b44b-e1bf403611ec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="644bd88a-2028-5ae6-b44b-e1bf403611ec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="af01a43e-54e0-1063-3904-2105e6b3a6e4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="fa3bd437-d0d4-e2c7-4e70-103be7b9b393" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Gas Grenades"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="30034ec8-b720-9922-61a0-d5a35ee9b09a" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="59b23861-9f60-e9e6-43fa-eefb4679c492" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a4b849a2-a36b-2715-e92a-ad015bd76a00" name="Medic" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="55dcb106-aad7-412a-b7f5-29752afe7c96" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="dcc95035-0957-565c-ad3d-c05c97b02875" name="Ashigaru Specialist" points="30.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="c053ec59-15f8-8dbf-0c09-6ca4a393d5cc" name="Rocket Projector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="6bcae9f3-990b-e705-d936-f436b53895e8" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Rocket Projector" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="5 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(1)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="ed5b9381-21cf-9974-ff78-7afd9dcb1816" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="af01a43e-54e0-1063-3904-2105e6b3a6e4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="03f557e1-fa2e-99e5-ed38-b70922cbf3ec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="4e23bcf5-b23d-d7a3-4c87-a2dbfa5cdc68" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru Specialist" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="5f1ae50a-55b6-7c80-c6c5-82f1050bec44" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="644bd88a-2028-5ae6-b44b-e1bf403611ec" name="Gun Team" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="5aaeb8c5-ce3c-57ce-8081-6aaba789d3d9" name="Type 9 ‘Fireball’" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="11ae7c5f-47af-ee30-f175-c93df5b7ee9b" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type 9 ‘Fireball’" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="ed5b9381-21cf-9974-ff78-7afd9dcb1816" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="03f557e1-fa2e-99e5-ed38-b70922cbf3ec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="af01a43e-54e0-1063-3904-2105e6b3a6e4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="6d84536d-d99b-975d-1917-b62abb89ecf5" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Gun Team" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Cumbersome, Move or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="aa50494f-3f57-f6a7-3661-e35ec61532a8" name="Kote Armoured Carrier" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3815c079-fba4-3c0e-baf1-ceb7d498da27" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kote Armoured Carrier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="4"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Open Topped, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5c9eed92-89c7-ffcf-785c-d8db64e7ecec" name="Flag Signaller" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a6c2d342-1cc5-57b8-fb45-6863484d644c" name="Flag Signaller" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="c495adb9-690e-da8b-c2a6-53cc37b64bb8" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Flag Signaller" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b46f37a9-6172-419b-3729-bc8bb859eecf" name="Section Type" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="dc9e6114-cd2e-aa6b-f2b2-466a7a092102" name="Combat" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ed5b9381-21cf-9974-ff78-7afd9dcb1816" name="Assault" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="03f557e1-fa2e-99e5-ed38-b70922cbf3ec" name="MMG" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9c66ac1a-1846-8981-c070-afd0716c1ceb" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c13a6886-606b-62d7-5cbe-e06265b11c93" name="Militia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="af01a43e-54e0-1063-3904-2105e6b3a6e4" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="5e64c5a2-9da3-8146-9ae5-6df343b4cd91" incrementChildId="644bd88a-2028-5ae6-b44b-e1bf403611ec" incrementField="selections" incrementValue="2.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0bacc01b-8d03-e61e-8a52-792c7e67a70c" name="Imperial Rifle Section" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="d9f79571-a104-c105-996c-5adad26391ee" name="Imperial Rifleman" points="15.0" categoryId="(No Category)" type="unit" minSelections="5" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="8a020845-6beb-7cd9-840d-94b67fa5af82" name="Teppo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c3c3a013-3bb3-fffe-74d2-c85055f6be7c" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Teppo" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="89b52508-5d41-8f8b-60e2-e055195b0a3c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="89b52508-5d41-8f8b-60e2-e055195b0a3c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="7d592fcc-8139-c5ae-5709-3c275f13d796" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="7d592fcc-8139-c5ae-5709-3c275f13d796" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4ca6b1fa-10f8-ce70-cdab-6322b2197052" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="15.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4baa055e-6813-5822-1b25-72a0b0c54177" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="f0806140-b551-8454-b192-266223f0aa9d" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Imperial Rifleman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="147f6839-4608-c0a4-41c4-135404d71516" name="Army Medic" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="9f1299f5-623e-c6c7-d0c2-35aee297549d" name="Medic" hidden="false" page="0">
+              <description>A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="43d3de63-231f-9fc4-3a5c-6028d589e90b" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7d592fcc-8139-c5ae-5709-3c275f13d796" name="Imperial Sergeant" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="95b0b197-1823-478d-1329-535688557d72" name="Dragon&apos;s Breath Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ac97919c-d16a-ed3a-2ed9-e80c1cc4579d" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Dragon&apos;s Breath Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="138dc35c-86ff-46e3-968a-cd94892f8a37" name="Master Sergeant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8ee5d73c-3f17-6bf2-81bf-4b4e9e22f0b7" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Imperial Master Sergeant" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="2 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO(2)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4ca6b1fa-10f8-ce70-cdab-6322b2197052" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="15.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4baa055e-6813-5822-1b25-72a0b0c54177" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="a4367fa7-6168-9ab6-f54b-2a2517aae25f" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Imperial Sergeant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="NCO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="89b52508-5d41-8f8b-60e2-e055195b0a3c" name="Imperial Marksman" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="f0cf7603-c7d4-c358-8916-5f1dcc622a97" name="Marksman&apos;s Teppo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="5e4a56db-1905-27cd-5eca-02adbca3cef1" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Marksman&apos;s Teppo" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="15.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4baa055e-6813-5822-1b25-72a0b0c54177" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="0bacc01b-8d03-e61e-8a52-792c7e67a70c" incrementChildId="4ca6b1fa-10f8-ce70-cdab-6322b2197052" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="88a4ef86-e7b9-590c-8ef7-8b18a0276da2" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Imperial Marksman" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Sniper"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4e399e76-7729-8db6-ccb3-5f6e770cc749" name="Kote Armoured Carrier" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="180242e4-7287-97b8-c2bc-6793f7b70be5" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kote Armoured Carrier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="4"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Open Topped, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="6fa11f0a-ded6-19ba-3460-657cf80ed6e2" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7b4b2d78-bbf7-9e71-9a99-21d2a35c7663" name="Militia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4ca6b1fa-10f8-ce70-cdab-6322b2197052" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4baa055e-6813-5822-1b25-72a0b0c54177" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f49b3125-56f4-ba41-fe5f-a8e27c3f2f42" name="Infantry Officer" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="73bf29a5-84ea-e1b9-b6de-c0a406e4e5f1" name="Kote APC" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="005a4294-7d7d-07a2-4e32-b7b99abdcc1a" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kote Armoured Carrier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="4"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Open Topped, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="dcf45609-d802-529c-841a-b9c0faf70fc2" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="15ee7330-6f1a-5ccd-6fe8-8beb4c9c00f8" name="Kappon Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d2f40ef3-024e-2ba7-146b-e7500bc13e98" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Kappon Pistol" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon, Small Arm"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="f64ac02e-0181-bc22-3795-74f0e46f5094" name="&apos;Tiger&apos;s Claw&apos; Shotgun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8c11993f-dada-3877-6d6a-906f2189e15f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="&apos;Tiger&apos;s Claw&apos; Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast, Small Arm"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="46297d71-5042-efc1-0960-d7424e799698" name="Command Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="16e6f14b-0147-03f3-3eb4-8552adec3e01" name="1 2nd Lieutenant" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="6dbc2b84-02a2-046f-afb2-25789c3a061a" name="2nd Lieutenant" hidden="false" page="0">
+                  <description>Command Points 3
+Command Range 4&quot;
+Experience Level Militia</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d77757b6-c9e9-c5d9-8d2f-afe1af199926" name="2 1st Lieutenant" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="0f6c0078-853c-38f9-6266-fee68311ff47" name="1st Lieutenant" hidden="false" page="0">
+                  <description>Command Points 4
+Command Range 6&quot;
+Experience Level Regular</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7b1b1225-3852-49cb-509b-7490135f6513" name="4 Major" points="150.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="17091831-7f00-4039-d11d-847c74b65fa1" name="Major" hidden="false" page="0">
+                  <description>Command Points 6
+Command Range 8&quot;
+Experience Level Veteran</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="494dcb2c-3225-a3c1-56c5-97b17fc54ba2" name="3 Captain" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="058e9449-7b3a-5ec6-a09e-a64c998e6b25" name="Captain" hidden="false" page="0">
+                  <description>Command Points 5
+Command Range 6&quot;
+Experience Level Regular</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="cad079a7-6c2c-ea00-e55e-72c7e44a934e" name="5 Colonel" points="175.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="97929dad-344c-d065-5217-2d26245c05ac" name="Colonel" hidden="false" page="0">
+                  <description>Command Points 8
+Command Range 8&quot;
+Experience Level Veteran</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="f1feea2e-7668-a52c-21a8-24362246a50f" name="Imperial Rifle Section" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4e256006-9a85-ea6a-1dca-077170309ba4" name="Riflemen" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="f49b3125-56f4-ba41-fe5f-a8e27c3f2f42" childId="d77757b6-c9e9-c5d9-8d2f-afe1af199926" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="f49b3125-56f4-ba41-fe5f-a8e27c3f2f42" childId="494dcb2c-3225-a3c1-56c5-97b17fc54ba2" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="f49b3125-56f4-ba41-fe5f-a8e27c3f2f42" childId="7b1b1225-3852-49cb-509b-7490135f6513" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="f49b3125-56f4-ba41-fe5f-a8e27c3f2f42" childId="cad079a7-6c2c-ea00-e55e-72c7e44a934e" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2be9d0b5-d585-3eae-ea4e-173b4fee1139" name="Flag Signaller" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="06fdef4f-358f-22df-f86d-113ef78f4c0a" name="Order: Banzai! Banzai! Banzai!" hidden="false">
+          <description>CP = 1
+Passes = 2
+Issued in - Section&apos;s Command Segment
+If the order is passed, the Section gains the Daunting MAR for the Activation</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2bd3f049-dae0-0231-7b82-2f24e06b7f66" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Infantry Officer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+            <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+            <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+            <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="3"/>
+            <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLUE"/>
+            <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4e96142d-de6d-4d03-b3e4-08c1be43644a" targetId="24f86636-f7f6-ed32-392a-7b9a45441145" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f8d6b305-618f-3703-5eaa-94e88bbdf39c" name="Kanpon Type-17 Launcher" points="90.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="94bda998-f9bf-0087-7dcd-2b68927cc8d9" name="Ashigaru" points="30.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="a07a25c2-37c4-be16-da4f-1160f8d49654" name="Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3688df53-6f97-4ca4-b26e-6081d50f4075" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="‘Dragon’s Breath’ Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="592d4ea5-e99a-8be0-3d5c-f7e3793fe1b4" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Gas Grenades"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="309bfb7a-f889-02ca-e727-f87ff291c891" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8e418291-36b6-3176-15e2-3e7eb095c188" name="Flag Signaller" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="156befc2-2554-964a-ceab-59a24a954e36" name="Kote Armoured Carrier" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="764fa8de-b353-1ad6-75f4-579ae028311e" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kote Armoured Carrier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="4"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Open Topped, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c1fe92c3-65bb-954e-5bd3-e820494fe890" name="Emplacement" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e59d0cf2-758f-c454-2fac-552ac3334554" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kanpon Type-17 Launcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Small Ironclad"/>
+            <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="3&quot;"/>
+            <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="5"/>
+            <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="2"/>
+            <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="5"/>
+            <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="2"/>
+            <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Move or Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="91be7ab4-fc97-91bd-16b6-ee674bb5bfa4" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type-17 Launcher (AP)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="6-16&quot;"/>
+            <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+            <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="-"/>
+            <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+            <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="10 RED"/>
+            <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="14 RED"/>
+            <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Rapid Fire(2)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="17c2ea28-a02e-9dc4-92e0-13a277cbb20d" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type-17 Launcher (HE)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="6-16&quot;"/>
+            <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+            <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="10 RED"/>
+            <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="14 RED"/>
+            <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+            <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+            <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="IDF Weapon, Rapid Fire(2), Suppression"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c5234991-8c19-5f27-06f1-70d437d6f1f1" name="Ke-Ho Small Tank" points="350.0" categoryId="cdbe79c5-eff5-1446-7dab-048fcce4a65f" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="4d8df460-b718-9db1-0df7-9fdf5e36f1c7" name="Main Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="b04992a2-c7b6-f91c-fe85-fd3f8983edc0" name="Rocket-Howitzer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="308ea0ec-a5d2-94cb-bec4-6c0cbc085147" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Rocket-Howitzer" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="10 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="8 RED"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="12 RED"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="12 BLUE"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast, IDF Weapon, Spray and Pray, Suppression"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="d03a49c9-28db-91e9-6043-97b1c309229c" name="Sponsons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="f16c6ad5-41d3-5954-0479-416eb19b07c1" name="Type 19 Heavy Machine Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e3fa4b1f-6a0f-24f2-d014-b538635db41a" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type 19 Heavy Machine Gun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-32&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="5 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="4 BLUE"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="8 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="5 BLACK"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Armor Piercing(2)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="c6b2b698-5001-a11c-aa02-44a53de046c4" name="&apos;Dragon&apos;s Wrath&apos; Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="dea24a1d-809d-7a36-e43d-21b201aeb4f7" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="&apos;Dragon&apos;s Wrath&apos; Flamethrower" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-12&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="8 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="6 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast, Spray and Pray"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="a059d7a7-c458-a56f-709f-bf45c8dc4d4f" name="Veteran" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="99174d75-39e0-0657-8c94-c70423f96444" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Ke-Ho Small Tank" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+            <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="6&quot;"/>
+            <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="9"/>
+            <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="9"/>
+            <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="9"/>
+            <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+            <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Independent Firing, NCO, Spotter"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="77f3c3f3-e54f-1a32-1e5b-db8c99417934" name="Master Kozo Okinawa" points="175.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="42914fb2-511f-6f00-4b8b-d3f0321bad97" name="Type 31 Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8851ad7f-b4ce-5324-6418-e42b58d54aaa" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type 31 Pistol" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4" name="Battle Ashigaru" points="0.0" categoryId="c3ad262a-edcb-13c7-0883-bbea6d8cd67e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="31f98a29-5b68-475c-d469-5da80ccdf859" name="Ashigaru" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="1fb1ac57-ddee-33a2-d71c-8340a309066f" name="Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="ce872593-cc55-d354-a09d-192ef99e8f45" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="‘Dragon’s Breath’ Shotgun" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="ea686e70-7fe4-b3a9-a623-b93c1abe4b71" name="Tank Mines" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4" incrementChildId="305fbebd-2cbd-ca9b-93f9-4d474ffae36c" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4" incrementChildId="6f39000f-ff3d-9237-4f51-e7f85e1a3ace" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="07d1af42-12a3-9678-7c33-4191598c98d1" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Gas Grenades"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="1f5c788c-0389-9b73-6045-85d5429455a2" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="abd83c41-9dc2-2ebd-9c12-5da2bf4c15f2" name="Army Medic" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="3ad5a874-97b1-0856-a350-3bc241375e3b" name="Medic" hidden="false" page="0">
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="2ddd4c37-9466-db87-3c2c-6c83826d7da9" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Army Medic" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="305fbebd-2cbd-ca9b-93f9-4d474ffae36c" name="Ashigaru Specialist" points="45.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="ebc02d69-5f7e-37c1-a50b-10338ebe950a" name="Rocket Projector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="b163b2b4-bc53-540e-89c3-d7f1d4370cf3" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Rocket Projector" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4" incrementChildId="6f39000f-ff3d-9237-4f51-e7f85e1a3ace" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="d1c632f1-85c0-b9f6-749d-28ac504656df" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru Specialist" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="ff0e6c25-647c-886d-7246-05042fb4b4ba" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b79aeec6-0c9c-08b5-8d62-d382f7d5f5b6" name="Flag Signaller" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="69e9b898-b9f5-f9ad-dfa1-d637d171c18c" name="Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="37776189-2958-593a-4b2f-6afe96f5e347" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="‘Dragon’s Breath’ Shotgun" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                        <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                        <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                        <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                        <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                        <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                        <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4" incrementChildId="6f39000f-ff3d-9237-4f51-e7f85e1a3ace" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="59b1b45c-e01d-9d5c-134b-e37e4d9a3357" name="Flag Signaller" hidden="false" page="0">
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="8523b809-c538-286e-1c91-863cae600a70" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Flag Signaller" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                    <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                    <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                    <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                    <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="1 BLACK"/>
+                    <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Medic(6+)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="8332efbc-f63b-863a-1a2d-c602beeb279b" name="Field Equipment" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="6f39000f-ff3d-9237-4f51-e7f85e1a3ace" name="Tank mines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="d1b37688-00bf-5b62-28e8-c2b504cba33c" name="Kote Armoured Carrier" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f19b0643-09ef-695f-3c4e-89a1a3a3bec6" profileTypeId="8609946f-3efb-43c3-4d26-fd7298048fef" name="Kote Armoured Carrier" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="24ec55bc-8096-3719-f055-359b4a8b6db8" name="Type" value="Ironclad"/>
+                <characteristic characteristicId="efa50e5f-c48f-baba-babd-7641c78029fb" name="Mv" value="8&quot;"/>
+                <characteristic characteristicId="89628dc0-ac75-72b8-44ad-0f7ae9c71956" name="Front" value="4"/>
+                <characteristic characteristicId="8638bb7e-9bb1-70fb-2a8b-7349d7a8890a" name="Sides" value="4"/>
+                <characteristic characteristicId="ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e" name="Rear" value="3"/>
+                <characteristic characteristicId="8e70efa2-c560-c355-0ba4-8c7e03b6873c" name="HP" value="4"/>
+                <characteristic characteristicId="0760296f-f788-8de4-051f-e97fee43f772" name="MARs" value="Open Topped, Transport(8)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="92435868-7dc9-6814-a6b1-51f67243b9e8" name="Madame Taipan" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f50fc128-5083-ff8c-f9f5-cacdfe998c6d" name="Shuriken" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e3b6c46b-e97c-f11b-78eb-10f58833914f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Shuriken" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon, Small Arm"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="630294b5-d31e-72a3-5b20-146d98820564" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Madame Taipan" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="7&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="3"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Rapid Fire(D3,Shuriken), Smoke Launcher(2), Sniper, Swift Strike"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="points" value="3.0" repeat="true" numRepeats="1" incrementParentId="77f3c3f3-e54f-1a32-1e5b-db8c99417934" incrementChildId="6f39000f-ff3d-9237-4f51-e7f85e1a3ace" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="338437d6-cb65-fbf1-b3ea-f27fe0faf416" name="Order: Banzai! Banzai! Banzai!" hidden="false">
+          <description>CP = 1
+Passes = 2
+Issued in - Section&apos;s Command Segment
+If the order is passed, the Section gains the Daunting MAR for the Activation</description>
+          <modifiers/>
+        </rule>
+        <rule id="4c0d54d9-b2e6-4c9e-2797-0f703d90d00e" name="Master Kozo Okinawa" hidden="false" page="0">
+          <description>Command Points 5
+Command Range 6&quot;
+Experience Level Veteran</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8018eaf6-700e-05f4-6100-3c7a75f80f26" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Master Kozo Okinawa" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry - Officer"/>
+            <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+            <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+            <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="4"/>
+            <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 RED"/>
+            <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armor(2), Gas Grenades"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5471902b-f4da-fa8f-14b0-dcf7627eda32" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f862912-ff60-e608-621a-f655a453ebbb" targetId="24f86636-f7f6-ed32-392a-7b9a45441145" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" name="Medium Machine Guns Section" points="0.0" categoryId="74a5e1f2-636a-5230-b965-dbb3b4efed2f" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb" name="Gun Team" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="a491c314-aaa7-d304-fa0a-74d907a9bb07" name="Type 9 ‘Fireball’" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3c4b51db-206e-8ace-e91f-28bf1ac8bd0f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Type 9 ‘Fireball’" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="5 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="5 BLUE"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="3 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Spray and Pray"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="20.0" repeat="true" numRepeats="1" incrementParentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" incrementChildId="3cfb642a-e87c-c832-b8ce-a246f077ae19" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="f15e2806-2e9d-b5dc-54da-bd53003aeace" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Gun Team" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Cumbersome, Move or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6eb16689-cb8a-5ec5-23c3-c17f7d4576c6" name="Ashigaru" points="20.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="ff3a3ef3-0c6f-cc22-cbdc-5d31616190df" name="Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0b8ad990-7ae1-0253-8087-3fae985ff295" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="‘Dragon’s Breath’ Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" childId="e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb" field="selections" type="greater than" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" incrementChildId="e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" incrementChildId="3cfb642a-e87c-c832-b8ce-a246f077ae19" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="af01a43e-54e0-1063-3904-2105e6b3a6e4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="eca051f3-35a0-7da7-47d9-3dceef42e814" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ashigaru" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="6&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="1"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 BLACK"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Gas Grenades"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="baea22d1-833a-27c4-e6bb-c3e09d26338b" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="94a90745-e886-4f54-371f-15b32298645d" name="Experience Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2526f235-4822-2253-19af-96a804247b68" name="Militia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3cfb642a-e87c-c832-b8ce-a246f077ae19" name="Regular" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" childId="e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb" field="selections" type="equal to" value="2.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="24acc6d2-ead9-7ced-a7d1-63eaa687ffe5" childId="e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb" field="selections" type="equal to" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="29a89599-2058-2e81-098a-9d20f9d2c02c" name="Rocket Corps Section" points="0.0" categoryId="03401ec5-35d9-8c9b-039a-c47d317173fd" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="81cd66b3-a60b-6c33-8a43-0020c858994f" name="Samurai" points="65.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="b5bc3675-a3e5-fa21-462a-a8108c1cff48" name="Combat Armour" hidden="false" page="0">
+              <description>A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.</description>
+              <modifiers/>
+            </rule>
+            <rule id="59caed02-7201-a440-ac74-18c5b661f648" name="Daunting" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="306a2bc4-2e0e-2f9f-4a81-0d2c5e76f740" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Samurai" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Jetpack"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="9&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Battle Hardened, Combat Armor(1), Daunting, Gas Grenades"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4b4a0b64-8a8b-1576-cc41-be3841b616a1" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8fee5206-cdff-069b-ae8f-bde64d4e895b" name="Ryuma Steambike Section" points="0.0" categoryId="03401ec5-35d9-8c9b-039a-c47d317173fd" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="b477d35d-28dd-3b18-fb2e-41e7e1d21812" name="Ryuma Steambike" points="75.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="0ab95209-05c4-4e7e-10bb-6a4b48656969" name="Tiger&apos;s Claw Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="4df14cc8-8d89-57ab-130c-fd5f4ad5243f" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Tiger&apos;s Claw Shotgun" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="3 RED"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="2 BLUE"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Blast, Small Arms"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="15.0" repeat="true" numRepeats="1" incrementParentId="8fee5206-cdff-069b-ae8f-bde64d4e895b" incrementChildId="2aee2295-5fc2-31d8-2dc2-7e553bb6b55c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="2660c5c2-e812-6a82-21a2-e85bc3c237a4" name="Skimming" hidden="false" page="0">
+              <description>A model with the Skimming MAR CAN move over models and Terrain which is Man-Height or smaller without any Movement Penalty. Additionally, a model with the Skimming MAR is considered to have the Towering MAR.</description>
+              <modifiers/>
+            </rule>
+            <rule id="719b2257-9b7c-1659-11eb-65ca8c1b4f35" name="Towering" hidden="false" page="0">
+              <description>The Line of Sight to and from models with the Towering MAR is NOT Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.</description>
+              <modifiers/>
+            </rule>
+            <rule id="e5d52ad5-fc27-027b-755f-586af1bb6a6d" name="Ryuma Steambike" hidden="false">
+              <description>The Ryuma Steambike Section may move through enemy Sections as per the rules for Ironclad Collisions on Pg. 108 of the Rule Book, and may still make a Hit and Run attack when doing so.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="939e9844-6012-854c-f359-8b3d8bff28dd" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Ryuma Steambike" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Cavalry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="10&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Gas Grenades, Skimming"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="d01b5038-5f29-ebb8-1f47-a99beda1d652" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2aee2295-5fc2-31d8-2dc2-7e553bb6b55c" name="Veteran" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="1abca116-5a72-642e-cb4a-eae2cc5dbb6d" name="Samurai Officer Section" points="0.0" categoryId="0baa64cc-e868-23f3-9b04-d0542751e419" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="c9d5bd62-4409-f3ad-165e-2492e9d579b8" name="Master Samurai" points="200.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="77a0f760-0fa6-786f-37fa-47be4217815a" name="Combat Armour" hidden="false" page="0">
+              <description>A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.</description>
+              <modifiers/>
+            </rule>
+            <rule id="6816b21b-86b4-f26c-e4d1-3d912142cf26" name="Daunting" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+            <rule id="2acad229-64bd-8250-8bea-89052386b3d7" name="Way of the Warrior" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="8d0bcd79-83b0-b87d-eb5a-1a55cb9dcc8b" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Master Samurai" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Aeronaut - Officer (Tier 1)"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;/9&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="3"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armour, Daunting, Gas Grenades, Way of the Warrior"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0c74fd08-8a36-31de-1f26-a5a81e3fc1a8" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="225cf1f4-f4a8-927f-9197-134fa52154cd" targetId="24f86636-f7f6-ed32-392a-7b9a45441145" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="aa57dfda-0e59-2d93-d7cc-9c81f4f55931" name="Samurai" points="65.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="05926b57-d88d-bd98-6211-e1b9bf1c3cc9" name="Combat Armour" hidden="false" page="0">
+              <description>A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.</description>
+              <modifiers/>
+            </rule>
+            <rule id="12c0a370-3255-a204-4475-e0a1c1114f40" name="Daunting" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="71572561-9a32-3ddc-0d4f-88206c60c874" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Samurai" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Aeronaut"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="5&quot;/9&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="4"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="4 BLUE"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Combat Armour, Daunting, Gas Grenades"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="8fa13782-0aa5-b4a4-4eaf-40d50d9109c7" targetId="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c0c33cf8-5c09-7a56-63df-23ad0e409899" name="Shinobi Assassin Section" points="0.0" categoryId="03401ec5-35d9-8c9b-039a-c47d317173fd" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="1b9c87f4-e7d7-047f-4c19-31625ebe6407" name="Shinobi Assassin" points="60.0" categoryId="(No Category)" type="unit" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="c5dd86a4-6eb5-6dda-87d3-40868a989e70" name="Shuriken" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c1cc2335-346b-b7c6-07b4-33ae97efa021" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Shuriken" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="0-8&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="-"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="2 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="-"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="CQB Weapon, Small Arm"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="c0c33cf8-5c09-7a56-63df-23ad0e409899" incrementChildId="a86efb21-68fd-5182-16a8-82735601a2f8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="536984ae-6646-caa1-d508-fc4b424c5fd7" name="Battle Hardened" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+            <rule id="9fd751d4-64b3-3343-e44d-de32dfaab885" name="Infiltrators" hidden="false" page="0">
+              <description>Infiltrators</description>
+              <modifiers/>
+            </rule>
+            <rule id="1f823f30-77bd-8df3-ab7b-e0959b87912e" name="Stealthy" hidden="false" page="0">
+              <description>If a Section with the Stealth MAR is declared the target of a Ranged Attack, the firing Section must take a Command Test on BLUE Dice requiring a number of successes equal to the Range Band the target Section is within.
+If the Command Test is passed the Section CAN proceed with their Ranged Attack as normal. If the Command Test is failed the firing section CANNOT target the Section with the Stealth MAR. The firing section CAN then target another valid Section.
+If a Section contains one or more models without the Stealth MAR, the MAR is ignored.</description>
+              <modifiers/>
+            </rule>
+            <rule id="2a546087-a803-2cea-eace-8a95e7d36495" name="Swift Strike" hidden="false" page="0">
+              <description>A model with the Swift Strike MAR Strikes First in the first round of a Melee.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="8f4284a2-36af-fef0-cf2f-2ddb17ee84f7" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Shinobi Assassin" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="7&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="5 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Battle Hardened, Infiltrators, Stealthy, Swift Strike"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="a86efb21-68fd-5182-16a8-82735601a2f8" name="Shinobi Kyudoka" points="80.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="af5aa07b-151e-9ce7-b7e0-fd2a1a1444c2" name="Yumi" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="70d17c37-97eb-d5e2-d951-1457628067b4" profileTypeId="8789d001-6582-70fc-f96b-07ace9afe782" name="Yumi" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ba19b0b0-08c0-7343-876e-b48f7f92e0c6" name="ER" value="1-16&quot;"/>
+                    <characteristic characteristicId="aecb3e00-ed71-cac7-04f4-73a0f8825554" name="LR" value="17-24&quot;"/>
+                    <characteristic characteristicId="bd3cb9ee-6552-22a9-8903-6a1eed8895ac" name="ER RAD" value="5 BLUE"/>
+                    <characteristic characteristicId="2b559c2a-3648-5fe4-f27b-93f86a98ce74" name="LR RAD" value="4 BLUE"/>
+                    <characteristic characteristicId="3886c2a8-617a-7eb8-6317-9672c2afc09d" name="ER IAD" value="-"/>
+                    <characteristic characteristicId="d9fa8499-5035-f1d8-1356-d263560c8a7c" name="LR IAD" value="-"/>
+                    <characteristic characteristicId="237aa327-44c6-68b0-359b-bac0a6eb2673" name="WARs" value="Small Arm, Sniper"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="2e1c3c13-1319-a22f-aecb-893a075f0a58" name="Smoke Launcher" hidden="false" page="0">
+              <modifiers/>
+            </rule>
+            <rule id="266c1515-449f-85b5-eba7-14350b690307" name="Sniper" hidden="false" page="0">
+              <description>Any models in a Section with the Sniper MAR may make a separate Ranged Attack to the rest of their Section. If they do so, the model with the Sniper MAR may DOUBLE their Weapon’s number of Attack Dice for their separate Ranged Attack.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ec6f5092-721c-0f44-5cc2-8902886d7898" profileTypeId="e768e3db-80af-3cea-995e-437c9f8e317b" name="Shinobi Kyudoka" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="31feeca1-3b0d-30fa-a65f-c8e60f6860fa" name="Type" value="Infantry"/>
+                <characteristic characteristicId="2bac851c-6484-a3cb-e0c1-c19b2542fab6" name="Mv" value="7&quot;"/>
+                <characteristic characteristicId="3eb329ae-ccae-6674-af6b-d0a9316663c5" name="IR" value="3"/>
+                <characteristic characteristicId="36a9abaa-8071-3b72-1a62-e7052c2f11bd" name="LP" value="2"/>
+                <characteristic characteristicId="0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72" name="MAD" value="3 RED"/>
+                <characteristic characteristicId="a0693fde-b42f-0609-397b-074ee2ae9f9c" name="MARs" value="Battle Hardened, Infiltrators, Smoke Launcher(2), Stealthy, Swift Strike"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="24f86636-f7f6-ed32-392a-7b9a45441145" name="Platoon Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="84f2a0c8-6da6-8df7-0dca-5c786819c5de" name="Duelling Armour" hidden="false" page="0">
+      <description>A model with the Duelling Armour MAR may reduce the number of successes rolled by its opponent during any Duel by ONE.</description>
+      <modifiers/>
+    </rule>
+    <rule id="30e0f1cc-eff8-85a9-c2ab-f597e9102d56" name="Gas Grenades" hidden="false" page="0">
+      <description>Models behind or within Defensible Terrain do NOT Strike First if one or more of the models they are in Melee with have the Gas Grenades MAR.</description>
+      <modifiers/>
+    </rule>
+    <rule id="800135a6-a49e-9276-1206-0922c9519079" name="Way of the Warrior" hidden="false" page="0">
+      <description>A model with the Way of the Warrior MAR MUST always accept a Challenge declared against them.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
